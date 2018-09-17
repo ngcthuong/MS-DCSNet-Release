@@ -1,14 +1,14 @@
 # Multi-Scale Deep Compressive Sensing Network 
 ## Abstract
 
-With joint learning of the sampling and recovery, the deep learning-based compressive sensing (DCS) has shown significant improvement in performance and running time reduction. Its reconstructed image, however, losses high-frequency content especially at low subrates. It is understood due to relatively much low-frequency information captured into the sampling matrix. This behaviour happens similarly in the multi-scale sampling scheme which also samples more low-frequency components. This paper proposes a multi-scale DCS (MS-CSNet) based on convolutional neural network. Firstly, we convert image signal using multiple scale-based wavelet transform. Then, the signal is captured through the convolution block by block across scales. The initial reconstructed image is directly recovered from multi-scale measurements. Multi-scale wavelet convolution is utilized to enhance the final reconstruction quality. The network learns to perform both multi-scale in sampling and reconstruction thus results in better reconstruction quality.
+With joint learning of the sampling and recovery, the deep learning-based compressive sensing (DCS) has shown significant improvement in performance and running time reduction. Its reconstructed image, however, losses high-frequency content especially at low subrates. It is understood due to relatively much low-frequency information captured into the sampling matrix. This behaviour happens similarly in the multi-scale sampling scheme which also samples more low-frequency components. This paper proposes a multi-scale DCS (MS-DCSNet) based on convolutional neural network. Firstly, we convert image signal using multiple scale-based wavelet transform. Then, the signal is captured through the convolution block by block across scales. The initial reconstructed image is directly recovered from multi-scale measurements. Multi-scale wavelet convolution is utilized to enhance the final reconstruction quality. The network learns to perform both multi-scale in sampling and reconstruction thus results in better reconstruction quality.
 
 ## Implementation 
 This is the test source code implemented with MatconvNet [1] using DagNN network. The trained CSNet [2] are taken from [3], MWCNN is used from [4, 5]. This implementation is motivated from [6, 7]. 
 
 ## Results
 ### Set 5	
-Set5 |    CSNet     |   MS-CSNet1   |   MS-CSNet2   |   MS-CSNet3   |  
+Set5 |    CSNet     |   MS-CSNet1   |   MS-CSNet2   |   MS-DCSNet3   |  
 
 ---------------------------------------------------------------------
 
