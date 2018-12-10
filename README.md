@@ -48,7 +48,7 @@ Set14
 [7] DnCNN source code, available at https://github.com/cszn/DnCNN
 
 
-### Disclaimer
+## Disclaimer
 
 Copyright (c) 2018 Thuong Nguyen Canh
 
