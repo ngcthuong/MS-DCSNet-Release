@@ -35,6 +35,13 @@ Set14
 Please cite this work if you use our soure code. 
 T. N. Canh and B. Jeon, "Multi-Scale Deep Compressive Sensing Network," IEEE International Conference on Visual Communication and Image Processing, 2018. 
 
+@inproceedings{Canh_VCIP18,
+  title={Multi-Scale Deep Compressive Sensing Network},
+  author={Thuong, Nguyen Canh and Byeungwoo, Jeon},
+  booktitle={IEEE International Conference on Visual Communication and Image Processing},
+  pages={},
+  year={2018}
+}
   
 ## Reference 
 [1] A. Vedaldi et al., “Matconvnet: Convolutional neural networks for Matlab,” Proc. ACM Inter. Conf. Multi., pp. 689 – 692, 2015.
