@@ -10,7 +10,7 @@ This is the test source code implemented with MatconvNet [1] using DagNN network
 ### Set 5	
  |Set5 |    CSNet     |   MS-CSNet1   |   MS-CSNet2   |   MS-DCSNet3   |  
 
- |------ | ----------- | -------------| ------------|----------------|
+ |------ | :---: | :---: :---: | :---: |
 
  |rate | PSNR  SSIM   |  PSNR   SSIM  |  PSNR   SSIM  |  PSNR   SSIM  |
 
