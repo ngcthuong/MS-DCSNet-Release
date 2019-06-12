@@ -8,17 +8,12 @@ This is the test source code implemented with MatconvNet [1] using DagNN network
 
 ## Results
 ### Set 5	
- |Set5 |    CSNet     |   MS-CSNet1   |   MS-CSNet2   |   MS-DCSNet3   |  
-
- |------ | :---: | :---: :---: | :---: |
-
- |rate | PSNR  SSIM   |  PSNR   SSIM  |  PSNR   SSIM  |  PSNR   SSIM  |
-
- |0.1  | 32.30	0.902	|  30.66	0.855	|  32.44	0.904 |  33.39	0.917 |
-
- |0.2  | 35.63	0.945	|  34.06	0.924	|  35.82	0.947	|  36.56	0.951 |
-
- |0.3  | 37.90	0.963	|  36.51	0.952	|  38.20	0.965	|  38.74	0.967 |
+| Set5 |    CSNet     |   MS-CSNet1   |   MS-CSNet2   |   MS-DCSNet3   |  
+| ----------------- | :---: | :---: | :---: |:---: |
+| rate | PSNR  SSIM   |  PSNR   SSIM  |  PSNR   SSIM  |  PSNR   SSIM  |
+| 0.1  | 32.30	0.902	|  30.66	0.855	|  32.44	0.904 |  33.39	0.917 |
+| 0.2  | 35.63	0.945	|  34.06	0.924	|  35.82	0.947	|  36.56	0.951 |
+| 0.3  | 37.90	0.963	|  36.51	0.952	|  38.20	0.965	|  38.74	0.967 |
 
 
 |Set14  | CSNet     |   MS-CSNet1   |   MS-CSNet2   |   MS-DCSNet3   
