@@ -16,15 +16,15 @@ addpath('D:\matconvnet-1.0-beta25\matlab\mex');     % Link to your Matconvnet Me
 % addpath('matconvnet-1.0-beta25\matlab');
 
 addpath('.\utilities');
-folderTest  = 'Classic13_512';
-networkTest = {'CSNet' 'MS-CSNet1' 'MS-CSNet2' 'MSCSNet-3'};      % 10
+folderTest  = 'Set14';
+networkTest = {'CSNet' 'MS-CSNet1' 'MS-CSNet2' 'MS-CSNet3'};      % 10
 
 showResult  = 0;
 writeRecon  = 1;
 featureSize = 64;
 blkSize     = 32; 
 isLearnMtx  = [1, 0];
-network     = networkTest{3}; 
+network     = networkTest{4}; 
 
 for samplingRate = [0.1:0.1:0.3]
     modelName   = [network '_r' num2str(samplingRate)]; %%% model name
@@ -78,6 +78,7 @@ for samplingRate = [0.1:0.1:0.3]
         time(i) = toc; 
         out1 = net.getVarIndex('prediction') ;
         output = gather(squeeze(gather(net.vars(out1).value)));
+        
         
         %output = res(end).x;
         output = gather(output);
